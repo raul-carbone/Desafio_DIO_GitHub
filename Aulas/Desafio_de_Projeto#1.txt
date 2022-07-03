@@ -1,3 +1,8 @@
 Resolução de Desafio de Projeto da Plataforma de educação da DIO.
 
 Link para GitHub: https://github.com/raul-carbone
+
+Esse é o primeiro repositório criado para o desenvolvimento de um projeto no GitHub:
+
+Será um  repositório utilizado para a organização dos meus estudos com base nos dias e anotações sobre as aulas concluídas.
+
