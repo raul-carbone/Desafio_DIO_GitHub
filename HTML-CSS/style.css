@@ -1,0 +1,55 @@
+/*Para identificar um id eu utilizo "#" e para identificar uma classe eu utilizo "."*/
+/*Sempre prestar atencao nas classes e nos id's utilizados (nomes etc)*/
+/*Tambem temos as margin,border,padding,content (representados de fora para dentro no modelbox do HTML), todas podem ser alteradas*/
+
+body {
+    background-color:grey;
+}
+
+.post {
+    background-color: white;
+    padding: 8px;
+    border: 3px solid black;
+    margin: 10px;
+}
+
+#titulo, .titulo-postagem {
+    color: black;
+    font-style: italic;
+}
+
+.subtitulo {
+    color: black;
+    font-size: 24px;
+    font-style: oblique;
+}
+
+.titulo-art {
+    color: black;
+    border: 3px, solid black;
+}
+
+.paragrafo {
+    color: black;
+    font-style: italic;
+}
+
+.rodape {
+    font-style: italic;
+    color: white;
+    font-weight: bolder;
+    padding-left: 50px;
+    background-color: black;
+    border: 3px solid black;
+    margin: 10px;
+}
+
+.foto_deus, .foto_curti, .foto_capa{
+    background-color: black;
+    padding: 10px;
+}
+
+.descrip {
+    font-size: 16px;
+}
+
