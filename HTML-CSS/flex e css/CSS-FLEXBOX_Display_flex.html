@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Fundamentos - Display flex</title>
+        <!--Abaixo temos os fundamentos das tag de display; flex:
+        sao usadas para organizar div, section, etc de uma forma mais dinamica-->
+        <style>
+            .flex{
+                max-width: 300px;
+                padding: 10px;
+                border: 2px solid black;
+                display: flex;
+            }
+        
+            .item{
+                background-color: aqua;
+                margin: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex">
+            <div class="item">Contato 01</div>
+            <div class="item">Contato 02</div>
+            <div class="item">Contato 03</div>
+            <!--Comportamento inicial do flex direction vem como row, que segue a ordenacao da esquerda para direita.
+            Temos tambem o row-reverse que como proprio nome diz vem no sentido oposto ao texto, da direita para a esquerda.
+            A tag column transforma a ordenacao linear em uma ordenacao em coluna de cima para baixo, tem tambem o column reverse que traz a ordenacao em coluna mas ordena os items de baixo 
+            para cima.-->
+        </div> 
+    </body>
+</html>
