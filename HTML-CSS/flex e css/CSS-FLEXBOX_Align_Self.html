@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Align Self</title>
+
+    <style>
+
+        .flex-container{
+            display: flex;
+            border: 2px solid black;
+            max-width: 450px;
+            /*align-items: center;*/
+        }
+
+        .align-container{
+            align-items: center;
+        }
+
+        .direction{
+            flex-direction: column;
+        }
+        .item{
+            background-color: aqua;
+            font-size: 24px;
+            color: red;
+            margin: 5px;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        .center{
+            align-self: center;
+        }
+
+        .start{
+            align-self: flex-start;
+        }
+
+        .end{
+            align-self: flex-end;
+        }
+
+        .baseline{
+            align-self: baseline;
+        }
+
+        .stretch{
+            align-self: stretch;
+        }
+
+        .auto{
+            align-self: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>auto</h1>
+    <section class="flex-container align-container">
+        <div class="item auto">111</div>
+        <div class="item auto">AAA</div>
+        <div class="item auto">Segue o lider Segue o lider Segue o lider</div>
+        <div class="item auto">ITEM 4</div>
+    </section>
+
+    <h1>Any-position</h1>
+    <section class="flex-container">
+        <div class="item center">111</div>
+        <div class="item start">AAA</div>
+        <div class="item stretch">Segue o lider Segue o lider Segue o lider</div>
+        <div class="item end">ITEM 4</div>
+    </section>
+
+    <h1>auto</h1>
+    <section class="flex-container">
+        <div class="item center">AAA</div>
+        <div class="item start">AAAAAAAAA</div>
+        <div class="item end">AAAAAAAAAAAAAAAAAAAAAA</div>  
+        <div class="item stretch">ITEM 4</div>
+    </section>
+
+    <h1>COLUMN</h1>
+    <section class="flex-container align-container direction">
+        <div class="item auto">111</div>
+        <div class="item auto">AAA</div>
+        <div class="item auto">Segue o lider Segue o lider Segue o lider</div>
+        <div class="item auto">ITEM 4</div>
+    </section>
+
+    <h1>Any-position</h1>
+    <section class="flex-container direction">
+        <div class="item center">111</div>
+        <div class="item start">AAA</div>
+        <div class="item stretch">Segue o lider Segue o lider Segue o lider</div>
+        <div class="item end">ITEM 4</div>
+    </section>
+
+    <h1>auto</h1>
+    <section class="flex-container direction">
+        <div class="item center">AAA</div>
+        <div class="item start">AAAAAAAAA</div>
+        <div class="item end">AAAAAAAAAAAAAAAAAAAAAA</div>  
+        <div class="item stretch">ITEM 4</div>
+    </section>
+</body>
+</html>

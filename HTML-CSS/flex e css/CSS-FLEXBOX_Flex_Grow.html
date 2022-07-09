@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Flex Grow</title>
+
+    <style>
+
+        .body{
+            background-color: lightgray;
+        }
+
+        .flex-container{
+            display: flex;
+            border: 3px solid white;
+            margin-bottom: 20px;
+            background-color: black;
+            justify-content: center;
+        }
+
+        .item{
+            background-color: orangered;
+            margin: 5px;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            border: 1px solid yellow;
+        }
+
+        .titulo{
+            text-decoration: underline;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        .fg-0{
+            flex-grow: 0;
+        }
+
+        .fg-1{
+            flex-grow: 1;
+        }
+
+        .fg-2{
+            flex-grow: 2;
+        }
+
+        .fg-3{
+            flex-grow: 3;
+
+        }
+
+        .center{
+            align-items: center;
+        }
+    </style>
+</head>
+<body class="body">
+    <h1 class="titulo">Flex Grow - 0</h1> 
+    <div class="flex-container">
+        <div class="item fg-0">Menu</div>
+        <div class="item fg-0">Contatos</div>
+        <div class="item fg-0">Oque somos?</div>
+        <div class="item fg-0">Instituição</div>
+    </div>
+
+    <h1 class="titulo">Flex Grow - 1</h1> 
+    <div class="flex-container">
+        <div class="item fg-1">Menu</div>
+        <div class="item fg-1">Contatos</div>
+        <div class="item fg-1">Oque somos?</div>
+        <div class="item fg-1">Instituição</div>
+    </div>
+
+    <h1 class="titulo">Flex Grow - 1,2 (alternados)</h1> 
+    <div class="flex-container">
+        <div class="item fg-1">Menu</div>
+        <div class="item fg-2">Contatos</div>
+        <div class="item fg-2">Oque somos?</div>
+        <div class="item fg-1">Instituição</div>
+    </div>
+
+    <h1 class="titulo">Flex Grow - 2</h1> 
+    <div class="flex-container center">
+        <div class="item fg-2">Menu</div>
+        <div class="item fg-2">Contatos</div>
+        <div class="item fg-2">Oque somos?</div>
+        <div class="item fg-2">Instituição</div>
+    </div>
+
+    <h1 class="titulo">Flex Grow - 3</h1> 
+    <div class="flex-container center">
+        <div class="item fg-1">Menu</div>
+        <div class="item fg-1">Contatos</div>
+        <div class="item fg-3">Oque somos?</div>
+        <div class="item fg-2">Instituição</div>
+        <div class="item fg-1">Valores</div>
+    </div>
+</body>
+</html>
