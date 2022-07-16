@@ -1,0 +1,12 @@
+JAVA SCRIPT
+
+comentario:
+-em linha: '//' no comeco da linha. (//)
+-varias linhas: '/*oque estiver no meio*/' (/**/)
+
+* Ctrl + barra - Atalho para comentario em linha.
+
+DOM - Document Object Model.
+-Estrutura dos elementos dentro da janela.
+
+****Depois de avancar um pouco no curso, voltar e fazer o desafio do To do list.****
