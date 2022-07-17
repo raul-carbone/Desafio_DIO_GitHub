@@ -10,3 +10,27 @@ DOM - Document Object Model.
 -Estrutura dos elementos dentro da janela.
 
 ****Depois de avancar um pouco no curso, voltar e fazer o desafio do To do list.****
+
+condicionais - instruções para realizar determinadas tarefas a partir de uma condicao.
+
+if;else;else if; 'ninho de if'; if ternairo; switch/case; 
+
+
+lacos de repeticao - estruturas condicionais que repetem uma instrucao ate atingir a determinada condicao.
+
+for; for/in; for/of; while; do/while;
+
+
+funcoes - blocos de comandos e instrucoes para a execucao de determinadas tarefas.
+
+funcoes com parametros - as funcoes podem receber em sua declaracao, parametros, que servem como variaveis, onde sua atribuicao pode ser feita durante a chamada da funcao.
+
+
+TIPOS DE FUNCOES
+funcoes declarativas - funcoes que possuem o uso mais comum.//a funcao deve ter o nome obrigatoriamente.
+
+expressoes de funcoes - sao funcoes atribuidas a expressoes. a nomeacao das funcoes por expressao e opcional.
+
+arrow function - sao funcoes de expressao de sintaxe curta. sempre serao anonimas, e portanto NAO podem ser nomeadas. deve ser declarada com parenteses '()', seguido de '=>' e depois chaves '{}'.
+
+funcoes aritmeticas - 
