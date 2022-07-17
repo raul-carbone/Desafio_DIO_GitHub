@@ -33,4 +33,27 @@ expressoes de funcoes - sao funcoes atribuidas a expressoes. a nomeacao das func
 
 arrow function - sao funcoes de expressao de sintaxe curta. sempre serao anonimas, e portanto NAO podem ser nomeadas. deve ser declarada com parenteses '()', seguido de '=>' e depois chaves '{}'.
 
-funcoes aritmeticas - 
+OPERADORES
+->atribuicao, aritmetica, comparacao, logica e condicional.
+
+-atribuicao:' =, [+=, *=, /=, %=(realizando operacoes na variavel)]. '
+
+-aritmetica:' +, -, *, **, /, %, ++(incrementar), --(decrementar). '
+
+-comparacao:' ==, ===(conferir se valor e tipo sao iguais), !=(diferente), !==(valor e tipos diferente), >, <, >=, <=. '
+
+-logica:' &&(e), ||(ou), !(nao).'
+
+-condicional:' if ternario.'
+
+    ----(condicao) ? expressao1 : expressao2
+
+	=
+
+	if (condicao)
+		expressao1;
+	else
+		expressao2;
+
+
+
