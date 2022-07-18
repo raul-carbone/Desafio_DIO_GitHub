@@ -2,7 +2,7 @@ function calculadora(){
     const operacao = Number(prompt('escolha uma operacao:\n 1 - Soma(+)\n 2 - Subtracao(-)\n 3 - Multiplicacao(*)\n 4 - Divisao Real(/)\n 5 - Divisao Inteira(%)\n 6 - Potenciacao(**)'));
 
     if (!operacao || operacao>= 7){
-        alert('ERROR-operacao invalisa');
+        alert('ERROR-operacao invalida');
         calculadora();
     } else {
         

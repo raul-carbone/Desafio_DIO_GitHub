@@ -1,4 +1,7 @@
 //Versao certa.
+let num1 = Number(prompt('Insira o primeiro valor: '))
+let num2 = Number(prompt('Insira o segundo valor: '))
+
 
 function comparaNumeros(num1, num2){
     const primeiraFrase = criaPrimeiraFrase(num1, num2);
@@ -38,4 +41,4 @@ function criaSegundaFrase(num1, num2){
 
 }
 
-console.log(comparaNumeros(1, 2))
+console.log(comparaNumeros(num1, num2))

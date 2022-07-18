@@ -56,4 +56,32 @@ OPERADORES
 		expressao2;
 
 
+Variaveis e Tipos // 18-07
+
+var e let - para variaveis que podem mudar de valor durante o codigo.
+
+let - possui o escopo de bloco.
+
+hoisting: atribuir o valor de uma variavel antes de declarar a variavel.
+
+Constantes
+
+-declaradas em SNAKE_UPPER_CASE(todas letras maiusculas e com underline)
+-possuem escopo de bloco
+-nao faz hoisting
+
+
+**img para resumo de propriedades de cada uma na pasta das aulas.**
+
+
+
+
+
+
+
+
+
+
+
+
 
