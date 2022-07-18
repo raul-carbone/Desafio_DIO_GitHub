@@ -74,14 +74,56 @@ Constantes
 **img para resumo de propriedades de cada uma na pasta das aulas.**
 
 
+TIPOS
+
+js e uma linguagem de tipagem dinamica.
+as variaveis podem mudar de tipo durante o codigo.
+
+STRINGS
+sao textos, frases, escrita, utiliza as aspas ou crases.
+uso de crase nas templatestrings.
+
+metodos importantes:
+-concatenacao
+-propriedade length
+-iterabilidade
+-formatacao
+
+NUMEROS
+basicamente numeros inteiros e nao inteiros.
+
+BOOLEANOS
+Verdadeiro ou False
+-true or False
+
+validar condicionais;
+qualquer comparacao retorna um valor booleano.
+
+ARRAY (vetores)
+-listas iteraveis de elementos.
+-possui a propriedade length.
+-first index sempre 0.
+
+OBJETOS
+
+sintaxe:
+
+	let person = {
+		name: 'Jonh',
+		age: 20,
+	}
+
+name, age - sao as Keys.(chave)
+'Jonh', 20 - sao os Values.(valores)
+
+-estrutura de tipo "chave e valor"
 
 
+Empty, null e undefined
 
+-sao diferentes
 
-
-
-
-
-
-
+empty - variavel declarada sem nenhum valor.
+null - propositalmente que nao existe aquele valor.
+undefined - indefinido, nem foi declarado.
 
