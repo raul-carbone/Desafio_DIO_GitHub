@@ -132,7 +132,15 @@ Do While:
 executa instrucoes ate que a condicao seja falsa, porem a primeira execucao sempre ocorre!
 
 
+THIS
+A palavra reservada this é uma referencia de contexto.
 
+Arrow functions // 2
+this sempre sera o objeto global. metodos para modificar seu valor nao irao funcionar.
+
+nao existe o objeto 'arguments'.
+
+o construtur (ex: new MeuObjeto()) tambem nao pode ser utilizado.
 
 
 
