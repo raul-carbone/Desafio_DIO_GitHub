@@ -127,3 +127,22 @@ empty - variavel declarada sem nenhum valor.
 null - propositalmente que nao existe aquele valor.
 undefined - indefinido, nem foi declarado.
 
+
+Do While:
+executa instrucoes ate que a condicao seja falsa, porem a primeira execucao sempre ocorre!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
