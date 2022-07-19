@@ -143,6 +143,54 @@ nao existe o objeto 'arguments'.
 o construtur (ex: new MeuObjeto()) tambem nao pode ser utilizado.
 
 
+ERROS
+
+Tipos de erros:
+
+a) ECMAScript Error - acontece em tempo de execucao. Composto por:(mensagem, nome, linha, call stack)
+
+b)DOMException - Erros relacionados ao Document Object Model (DOM).
+
+TRATANDO ERROS
+
+-"trhow" e "return";
+- try/cath;
+
+Trhow
+-diferente do return que retorna uma string por exemplo, o trhow tras a string como um ERR0, usando a funcao do verificaPalindromo do exercicio podemos ver a diferenca, com o trhow quando a string for invalida ele aparecera no console como Erro e a mensagem.
+
+Try...catch
+dentro do bloco try vc verifica um pedaco de codigo, se esse codigo estiver com erro ele caira na condicao do catch que pode ser colocado da maneira que vc preferir(com um console.log por exemplo ou um trhow tambem).tambem pode ser utilizada no exemplo da funcao do verificaPalindromo.
+
+Finally
+pode estar no bloco do try/catch, e uma funcao que vai ser chamada se tiver um erro ou nao.Mesmo depois de verificar o erro dentro do bloco try/catch o bloco do FINALLY tambem ira ser executado.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
